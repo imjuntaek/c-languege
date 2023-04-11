@@ -1,0 +1,14 @@
+#include <stdio.h>
+main()
+{
+	int a = 3;
+	a = a + 6;
+	if(a > 5) {
+		printf("%d\n", a);
+		printf("조건이 참일을 떄, 실행 \n");
+		
+}else {
+		printf("%d\n", a);
+		printf("조건이 거짓말을 떄, 실행 \n");}
+		
+	}
